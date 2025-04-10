@@ -40,11 +40,11 @@ annotation = "1.9.1"
 
 # Project versions
 projectApplicationId = "com.dvir.runique"
-projectVersionName = "1.0"
-projectMinSdkVersion = "25"
-projectTargetSdkVersion = "34"
-projectCompileSdkVersion = "34"
+projectMinSdkVersion = "24"
+projectTargetSdkVersion = "35"
+projectCompileSdkVersion = "35"
 projectVersionCode = "1"
+projectVersionName = "1.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -115,3 +115,5 @@ room = { id = "androidx.room", version.ref = "room" }
 jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "org-jetbrains-kotlin-jvm" }
 androidDynamicFeature = { id = "com.android.dynamic-feature", version.ref = "agp" }
 mapsplatform-secrets-plugin = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "secretsPlugin"}
+
+runique-android-application = { id = "runique.android.application", version = "unspecified" }
